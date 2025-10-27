@@ -4,7 +4,7 @@ import Landing from './pages/Landing/Landing';
 
 function App() {
   return (
-    <Router basename="/myprofile">
+    <Router basename="/myProfileReact">
       <Routes>
         <Route path="/" element={<Landing />} />
       </Routes>
